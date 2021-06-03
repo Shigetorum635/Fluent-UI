@@ -1,0 +1,106 @@
+
+body{
+     margin:5px;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.box{
+    margin:inherit;
+    padding:10px;
+    width:max-content;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box.x{
+    margin:30px;
+}
+.box.max{
+        width:auto;
+}
+.box.center{
+    text-align: center;
+}
+.box.box-center{
+    margin-left:50%;
+}
+.box.primary{
+    margin:inherit;
+    padding:10px;
+    color:white;
+    font-weight: bold;
+    background-color: #0078D7;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box.secondary{
+    margin:inherit;
+    padding:10px;
+    width:max-content;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box.inset{
+     margin:inherit;
+    padding:10px;
+    width:max-content;
+  box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+ .button{
+     margin: inherit;
+    font-weight: bold;
+     cursor: pointer;
+     padding: 10px;
+     padding-left: 15px;
+     padding-right: 15px;
+     margin:3px;
+     border:none;
+     transition: all;
+     transition-duration:500ms;
+}
+ .button:hover{
+     color:white;
+     background-color: #5D5A58;
+}
+ .button.primary{
+     color:white;
+     
+     background-color: #0078D7;
+}
+ .button.primary:hover{
+     
+     background-color: #0063B1;
+}
+ .button.primary:focus{
+     background-color: #2D7D9A;
+}
+ .button.warning{
+     color:white;
+     font-weight: bold;
+     background-color: #FFB900;
+}
+ .button.warning:hover{
+     background-color: #FF8C00;
+}
+ .button.warning:focus{
+     background-color: #F7630C;
+}
+ .button.alert{
+     color:white;
+     font-weight: bold;
+     background-color: #E74856;
+}
+ .button.alert:hover{
+     background-color: #E81123;
+}
+ .alert:focus{
+     background-color: #D13438;
+}
+ .button.secondary{
+     color:white;
+     font-weight: bold;
+     background-color: #00CC6A;
+}
+ .button.secondary:hover{
+     background-color: #10893E;
+}
+ .button.secondary:focus{
+     background-color:#107C10;
+}
